@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-family: Lucida Calligraphy;
+	font-size: 1.75em;
+}
+
+h2 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 150px;
+	margin-top: 0px;
+	text-align: center;
+	background-color: #94618E;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	font-family: Lucida Calligraphy;
+	color: white;
+	font-size: 1.25em;
+}
+.row {
+	width: 100%;
+}
+
+div.row > div {
+	position: relative;
+	border-width: 2px;
+	border-color: green;
+	border-style: solid;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	background-color: #F8EEE7;
+
+}
+
+@media (min-width: 992px) {
+.col-lg-4 {
+	float: left;
+	width: 29%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6 {
+	float: left;
+	width: 45%;
+}
+.col-md-12 {
+
+	float: left;
+	width: 94%;
+}
+}
+p {
+	margin: 10px;
+	margin-top: 50px;
+	font-family: Lucida Bright;
+}
